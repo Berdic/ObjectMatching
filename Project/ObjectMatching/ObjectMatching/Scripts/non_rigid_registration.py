@@ -5,9 +5,9 @@ import time
 from math import cos,sin,log,exp,sqrt
 from numpy import loadtxt,arange,array,dot,delete,reshape,kron,eye,ones,zeros,trace,s_,r_,c_,squeeze
 from numpy.linalg import svd,qr,norm
-
-from scipy.optimize import fmin_bfgs, fmin_l_bfgs_b
 import numpy as np
+from scipy.optimize import fmin_bfgs, fmin_l_bfgs_b
+
 #import GaussTransform
 #from _extension import *
 #import _plotting

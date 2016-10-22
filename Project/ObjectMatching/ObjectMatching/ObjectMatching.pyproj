@@ -23,6 +23,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ObjectMatching.py" />
+    <Compile Include="Scripts\alignment_quality_check.py" />
+    <Compile Include="Scripts\alignment_quality_check_cameras_names_in_progress.py" />
     <Compile Include="Scripts\non_rigid_registration.py" />
     <Compile Include="Scripts\__init__.py" />
   </ItemGroup>
