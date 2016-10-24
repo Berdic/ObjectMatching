@@ -29,7 +29,13 @@
     <Compile Include="Scripts\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="models\" />
     <Folder Include="Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="models\pyramid.obj" />
+    <Content Include="models\shape_cube.obj" />
+    <Content Include="models\sphere.obj" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
